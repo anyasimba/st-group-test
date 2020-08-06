@@ -1,3 +1,21 @@
+Шаги запуска:
+Установка пакетов:
+```
+npm install
+```
+Создайте файл среды и пропишите параметры подключения к mongodb:
+```
+DB_HOST=mongodb://localhost:27017
+DB_NAME=st-group-test
+DB_USER=root
+DB_PASS=
+```
+Это как пример, в зависимости от среды параметры могут отличаться
+```
+npm run dev
+```
+Запуск проекта в dev режиме для просмотра и ознакомления
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
